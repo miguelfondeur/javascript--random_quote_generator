@@ -1,52 +1,63 @@
 body {
   /*text-align: center;*/
-  background-color: #36b55c;
+  background-color: darkgreen;
   color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  background-image: url('../noisy-texture.png');
+  background-repeat: repeat;
+  background-position: center top;
 }
 #quote-box {
   position: absolute;
-  top: 20%;
-  left: 10%;
+  top: 50px;
   right: 10%;
   width: 80%;
   line-height: .5;
+  width: 600px;
+  left: calc(50% - 300px);
 }
 .quote {
-  font-size: 4rem;
-  font-weight: 400;
-  line-height: 1.1;
+  font-size: 2.3rem;
+  line-height: 1.2;
   position: relative;
   margin: 0;
-  } 
+  text-shadow: 1px 2px 2px #333;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  color: #f5f5dc;
+  animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+}
 .quote:before, .quote:after {
   font-size: 6rem;
   line-height: 2.5rem;
   position: absolute;
 }
-.quote:before {
-  content: "“";
-  top: .25em;
-  left: -.5em;
-}
-.quote:after {
-  content: "”";
-  bottom: -.1em;
-  margin-left: .1em;
-  position: absolute;
-}
+
 .source {
   font-size: 1.25rem;;
   letter-spacing: 0.05em;
   line-height: 1.1;
-  text-align: right;
-  margin-right: 4em;
+  text-align: center;
+  margin-top: 50px;
+  animation: fadein 1.5s;
+  -webkit-animation: fadein 1.5s;
 }
 .source:before {
   content: "—";
 }
 .citation {
   font-style: italic;
+}
+b {
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  letter-spacing: 2px;
+  display: block;
+  color: #fff;
+  line-height: 80px;
 }
 .citation:before {
   content: ", ";
@@ -63,19 +74,31 @@ body {
   display: inline-block;
   left: 50%;
   margin-left: -6em;
-  bottom: 150px;
+  bottom: 75px;
   border-radius: 4px;
   border: 2px solid #fff;
   color: #fff;
-  background-color: #36b55c;
+  background-color: transparent;
   padding: 15px 0;
   transition: .5s ;
+  border-radius: 30px;
+  font-weight: bold;
 }
 #loadQuote:hover {
   background-color: rgba(255,255,255,.25);
 }
 #loadQuote:focus {
   outline: none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 @media (max-width: 420px) {
