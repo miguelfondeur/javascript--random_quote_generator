@@ -1,3 +1,7 @@
+//Solving the Cycle through each firs problem...
+//Put all code in Get Random function
+//Add a flag to each object once they've passed through
+//don't call the function until all items have flag.
 
 // event listener to respond to clicks on the page
 // when user clicks anywhere on the page, the "makeQuote" function is called
