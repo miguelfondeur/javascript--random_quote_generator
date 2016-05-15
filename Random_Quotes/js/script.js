@@ -6,9 +6,10 @@
 var elem = document.getElementById('loadQuote');
 elem.addEventListener("click", function(){
   printQuote();
-  // PrintQuote every 25 seconds
-  setInterval(printQuote, 25000);
 }, false);
+
+// PrintQuote every 25 seconds
+setInterval(printQuote, 25000);
 
 
 //Global counter variable
