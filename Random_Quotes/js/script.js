@@ -8,8 +8,8 @@ elem.addEventListener("click", function(){
   printQuote();
 }, false);
 
-// PrintQuote every 25 seconds
-setInterval(printQuote, 25000);
+// PrintQuote every 60 seconds
+setInterval(printQuote, 60000);
 
 
 //Global counter variable
