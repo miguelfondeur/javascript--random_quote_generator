@@ -1,5 +1,3 @@
-//Miguel Fondeur, Lover of all things teamtreehouse.
-
 
 // event listener to respond to clicks on the page
 // when user clicks anywhere on the page, the "makeQuote" function is called
