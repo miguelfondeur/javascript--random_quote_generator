@@ -23,47 +23,55 @@ var quotes = [
     source: 'Steve Jobs',
     citation: 'Stanford Commencement Speech',
     year: '2005',
-    font: ''
+    tag: 'speech',
+    type: 'inspirational'
   },
   {
     quote: 'The thing about perfection is that it\'s <b>unknowable</b> It\'s <b>impossible</b> but it\'s also <b>right in front of us</b> all the time.',
     source: 'Kevin Flynn',
     citation: 'Tron Legacy',
     year: '2010',
-    font: ''
+    tag: 'film',
+    type: 'other'
   },
   {
     quote: '<b>We accept</b> the reality of <b>the world</b> with which <b>we are presented</b> it\'s as simple as that.',
     source: 'Christof',
     citation: 'The Truman Show',
     year: '1998',
-    font: ''
+    tag: 'film',
+    type: 'other'
   },
   {
     quote: 'We are the <b>music makers,</b> And we are the <b>dreamers of dreams</b>',
     source: 'Arthur O\'Shaughnessy',
     citation: 'Ode',
     year: '1874',
-    font: ''
+    tag: 'print',
+    type: 'inspirational'
   },
   {
     quote: 'For <b>whatever was written</b> in former days <b>was written for</b> our instruction, that through endurance and through the encouragement of the Scriptures we might have <b>hope</b>',
     source: 'Paul',
     citation: 'Romans 15:4',
     year: '58',
-    font: ''
+    tag: 'print',
+    type: 'spiritual'
   },
   {
     quote: 'The light that burns <b>twice as bright</b> burns <b>half as long</b> and you have burned<br> so very, very brightly',
     source: 'ROY',
     citation: 'Blade Runner',
     year: '1982',
-    font: ''
+    tag: 'film',
+    type: 'other'
   },
   {
     quote: '<b> The true mind</b> can weather all the lies and illustions <br> without being lost. <b> The true heart</b> can touch the poison of hatred<br> without being harmed',
     source: 'Great Lion Turtle',
     citation: 'Avatar - The Last Airbender',
+    tag: 'television',
+    type: 'inspirational'
   }
 ];
 
