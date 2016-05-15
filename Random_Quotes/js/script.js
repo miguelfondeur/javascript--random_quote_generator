@@ -6,11 +6,14 @@
 var elem = document.getElementById('loadQuote');
 elem.addEventListener("click", function(){
   printQuote();
+  //clear Timed Quote and Restart
+  clearInterval(timedQuote);
+  timedQuote = setInterval(printQuote, 30000);
 }, false);
 
 // PrintQuote every 60 seconds
-setInterval(printQuote, 60000);
-
+var timedQuote = setInterval(printQuote, 30000);
+timedQuote;
 
 //Global counter variable
 var i = 0;
